@@ -4,6 +4,5 @@ scipy
 sklearn
 seaborn
 matplotlib
-math
 numpy
 statsmodels
