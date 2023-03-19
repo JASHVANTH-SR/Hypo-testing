@@ -1,7 +1,9 @@
 streamlit
 pandas
 scipy 
-sklearn
+sklearn.model_selection
+sklearn.linear_model
+sklearn.metrics
 seaborn
 matplotlib
 numpy
