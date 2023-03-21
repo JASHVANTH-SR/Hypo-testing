@@ -91,8 +91,8 @@ xmin, xmax = plt.xlim() # the maximum x values from the histogram above
 x1 = np.linspace(xmin, xmax, 100) # generate some x values
 p = stats.norm.pdf(x1, mu1, std1) # calculate the y values for the normal curve
 sns.lineplot(x=x1, y=p, color="orange", ax=ax)
-plt.show()
-st.pyplot()
+
+st.pyplot(plt.show())
 
 mu2, std2 = stats.norm.fit(model2_result.resid)
 sns.histplot(x=model2_result.resid, ax=ax, stat="density", linewidth=0, kde=True)
