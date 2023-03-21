@@ -18,7 +18,7 @@ from statsmodels.stats.weightstats import ztest
 
 warnings.filterwarnings("ignore")
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(page_title="Water Quality", page_icon="🌾", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Hypothesis Testing", page_icon="🤔💭📊🧮📝", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
 
 try:
